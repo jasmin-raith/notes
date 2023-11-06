@@ -1,0 +1,11 @@
+<div class="app_wrapper">
+    <div class="dialog_wrapper"
+        [ngClass]="{'dialog_open': addDialogOpen, 'dialog_closed': !addDialogOpen}">
+        <div>
+            <app-add-note-dialog (addDialogClosed)="addDialogOpen = $event"></app-add-note-dialog>
+        </div>
+    </div>
+    <app-header class="z_index_m" (openNoteChange)="addDialogOpen = $event"></app-header>
+    <app-note-list class="z_index_m"></app-note-list>
+    <app-footer class="z_index_m"></app-footer>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "notes-2861a": {
+      "hosting": {
+        "DAKeep": [
+          "notes-2861a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "notes-2861a"
+  }
+}
