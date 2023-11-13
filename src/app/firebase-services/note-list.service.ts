@@ -86,6 +86,17 @@ export class NoteListService {
       list.forEach(element => {
         this.normalNotes.push(this.setNoteObject(element.data(), element.id));
       });
+      list.docChanges().forEach((change) => {
+        if (change.type === "added") {
+            console.log("New note: ", change.doc.data());
+        }
+        if (change.type === "modified") {
+            console.log("Modified note: ", change.doc.data());
+        }
+        if (change.type === "removed") {
+            console.log("Removed note: ", change.doc.data());
+        }
+      });
     });
   }
 
