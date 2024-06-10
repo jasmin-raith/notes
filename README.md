@@ -1,3 +1,9 @@
+# Notes
+
+![Preview](https://github.com/jasmin-raith/media/blob/main/notes/Notizen.gif?raw=true)
+
+[Click here to add notes](notes-fawn-two.vercel.app/)
+
 # DAKeep
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
