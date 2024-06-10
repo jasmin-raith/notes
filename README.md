@@ -2,7 +2,7 @@
 
 ![Preview](https://github.com/jasmin-raith/media/blob/main/notes/Notizen.gif?raw=true)
 
-[Click here to add notes](notes-fawn-two.vercel.app/)
+[Click here to add notes](https://notes-fawn-two.vercel.app/)
 
 # DAKeep
 
